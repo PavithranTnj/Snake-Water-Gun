@@ -4,10 +4,10 @@ import random
 
 app = FastAPI()
 
-# Define the possible choices
+
 choices = ["snake", "water", "gun"]
 
-# Define a request model
+
 class Choice(BaseModel):
     user_choice: str
 
